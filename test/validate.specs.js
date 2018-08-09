@@ -1,9 +1,9 @@
 const assert = require('chai').assert;
 global.window = global;
-require('../src/js/validate.js'); // Enlaza el archivo
+require('../validate.js'); // Enlaza el archivo
 
 // Validar correo
-describe('Validar emails', () => { 
+describe('Validar ', () => { 
   describe('Debería verificar si existe el arroba', () => {
     it('Debería el correo tener sólo un arroba', () => { 
       assert.equal(validateEmail('qwerty@qwerty.com'), true);
