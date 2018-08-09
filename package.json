@@ -1,0 +1,14 @@
+{
+  "name": "replicatrello",
+  "version": "0.0.1",
+  "description": "Réplica de Trello",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "trello"
+  ],
+  "author": "Tamara",
+  "license": "ISC"
+}
