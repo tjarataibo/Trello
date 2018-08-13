@@ -23,6 +23,13 @@
     padding-right: 0.5em;
 } */
 
+
+/* contenedor principal*/
+.container-fluid{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
 /* fondo */
 body {
     background-color: rgb(21, 113, 167);
@@ -83,18 +90,6 @@ body {
     -webkit-transform: scaleX(-1);
     color: white;
 }
-/* input para búsqueda*/
-#searching{
-    background-color: hsla(0, 0%, 100%, .3);
-    border-radius: 3px;
-    border: none;
-    margin: .4em .3em;
-    width: 180px;
-    float: left;
-    color: hsla(0, 0%, 100%, .5);
-    font-size: 13px;
-    height: 32px;
-}
 /* barra de búsqueda*/
 .header-barra {
     position: relative;
@@ -109,6 +104,18 @@ body {
     margin-top: .3em;
     padding: 0em 0.7em;
 }
+/* input para búsqueda*/
+#searching{
+    background-color: hsla(0, 0%, 100%, .3);
+    border-radius: 3px;
+    border: none;
+    margin: .4em .3em;
+    width: 180px;
+    float: left;
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 13px;
+    height: 32px;
+}
 /* contenedor ventral*/
 .ventral{
     width: 100%;
@@ -119,6 +126,15 @@ body {
     position: relative;
     flex-wrap: wrap;
     height: auto;
+}
+/* ícono estrella */
+.tittlePpal.star {
+    color: #f2d600;
+}
+/* título de tablero */
+#tittle{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 }
 /* nombre tablero*/
 .tittlePpal{
@@ -135,30 +151,15 @@ body {
     position: relative;
     text-decoration: none;
 }
-/* mostrar menú*/
-.menu {
-    float: left;
-}
-/* ícono estrella */
-.tittlePpal.star {
-    color: #f2d600;
-}
-/* título de tablero */
-#tittle{
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-}
-/* contenedor principal*/
-.container-fluid{
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
 /* contenedor superior derecho */
 .header-superiorDerecha{
     position: absolute;
     top: 4px;
     right: 0;
+}
+/* mostrar menú*/
+.menu {
+    float: left;
 }
 /* características íconos derechos*/
 .header-threeIcons {
