@@ -210,3 +210,16 @@ body {
         background: 0;
     }
 }
+/* añada una lista*/
+.add-list-button {
+    background-color: rgba(34, 32, 33, 0.568);
+    text-align: left;
+    color: #B5B6B7;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 2em;
+    margin-left: 1em;
+    max-height: 60px;
+}
