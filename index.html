@@ -4,31 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Link Materialize para css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <!-- Link para íconos -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Link boostrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--Link íconos-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="src/css/style.css">
   <title>Trello</title>
   
 </head>
 <body>
-
-    <div id="header">
+    <!-- <div id="header">
             <img src="https://raulsolbes.files.wordpress.com/2017/04/trello.png?w=1400&h=400&crop=1"> 
     </div>
     <div class="container">
-            
-        
+    </div> -->
+
+     <!-- Contenedor encabezado-->
+
+     <!-- <header class="bg-blue pd-sections tc-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12" id="logo">
+                            <img src="https://raulsolbes.files.wordpress.com/2017/04/trello.png?w=1400&h=400&crop=1"> 
+                    </div>
+                    <div id="header-tablero">
+                            <span class="header-tablero icon">
+                                <i id="tablero" class="fab fa-trello"></i>
+                            </span>
+                            <span class="header-tablero d-none d-lg-block">Tableros</span>
+                    </div>
+                </div>
+            </div>
+    </header>-->
+
+    <!--Sección que contiene tarjetas-->
+
+    <!--<section class="bg-trello-header"></section>
+    <section class="bg-lightblue pd-sections b-text tc-white" >
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <div class="bg-lightblue col-6 col-md-6 col-center">
+                    <h3></h3>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contenedor encabezado de ancho completo, que abarca todo el ancho de la ventana gráfica-->
+    <div class="container-fluid" id="contenedor">
+       
+        <div id="header">
+            <a id="headerinicial"></a>
+    <!-- Íconos superior izquierda-->
+            <div id="header-tablero">
+                <span class="header-tablero icon">
+                    <i id="lupa" class="fab fa-trello"></i>
+                </span>
+                <span class="header-tablero d-none d-lg-block">Tableros</span>
+            </div>
+            <div class="busqueda">
+                 <input type="text" id="buscaAqui"class="d-none d-lg-blockinfo" >   
+                <span class="busQ">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+            <div class="headerleft">
+                <a href="#" class="iconosSuperiores">
+                    <i class="fas fa-plus"></i>
+                </a>
+                <span class="iconosSuperiores  d-none d-lg-blockinfo">
+                   <a href="#">
+                    <i class="fas fa-info-circle"></i>
+                </a>  
+                </span>
+               
+                <a href="#" class="iconosSuperiores fondoCampana"> 
+                    <i class="far fa-bell"></i>
+                </a>
+                <a href="#" class="" id="Usuario">
+                    <img id ="https://i.imgur.com/bknQDMn.png" alt="">
+                </a>
+        </div>
     </div>
 
- <!-- Link Jquery -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <!-- Link Materialize para JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
- <!-- Link para firebase-->
- <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+   
 
+ <!-- scripts bootstrap  -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
  <script src="src/js/style.js"></script>
 </body>
 </html>

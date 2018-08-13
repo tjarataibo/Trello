@@ -10,5 +10,8 @@
     "trello"
   ],
   "author": "Tamara",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.3.0"
+  }
 }
