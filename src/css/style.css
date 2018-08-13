@@ -23,3 +23,190 @@
     padding-right: 0.5em;
 } */
 
+/* fondo */
+body {
+    background-color: rgb(21, 113, 167);
+}
+/* encabezado */
+#header {
+    background: rgba(0, 0, 0, .35);
+    position: relative;
+    padding: 4x;
+    margin: 0em -1em;
+    height: 42px;
+}
+/* contenedor de imagen Trello*/
+#headerImage {
+    height: 30px;
+    left: 50%;
+    margin-left: -40px;
+    opacity: .5;
+    position: absolute;
+    top: 7px;
+    width: 80px;
+    text-align: center;
+    background-image: url('https://raulsolbes.files.wordpress.com/2017/04/trello.png?w=1400&h=400&crop=1');
+    background-size: cover;
+    bottom: 0;
+    display: block;
+}
+/* contenedor de sección superior izquierda*/
+#header-superiorIzquierda {
+    background: hsla(0, 0%, 100%, .3);
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: .3em;
+    margin-top: .3em;
+    padding: 0em 0.7em;
+}
+/* íconos */
+.fa-trello:before {
+    content: "\f181";
+    margin: 0em 0.1em;
+}
+.fa-search {
+    font-weight: 900;
+    -webkit-transform: scaleX(-1);
+    color: white;
+}
+.fa-plus {
+    font-weight: 900;
+    -webkit-transform: scaleX(-1);
+    color: white;
+}
+.fa-info-circle {
+    font-weight: 900;
+    -webkit-transform: scaleX(-1);
+    color: white;
+}
+/* input para búsqueda*/
+#searching{
+    background-color: hsla(0, 0%, 100%, .3);
+    border-radius: 3px;
+    border: none;
+    margin: .4em .3em;
+    width: 180px;
+    float: left;
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 13px;
+    height: 32px;
+}
+/* barra de búsqueda*/
+.header-barra {
+    position: relative;
+}
+/* contenedor de ícono búsqueda*/
+.spanBarra {
+    position: absolute;
+    background: hsla(0, 0%, 100%, .3);
+    border-radius: 3px;
+    line-height: 32px;
+    margin-left: .3em;
+    margin-top: .3em;
+    padding: 0em 0.7em;
+}
+/* contenedor ventral*/
+.ventral{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 8px 4px 8px 8px;
+    position: relative;
+    flex-wrap: wrap;
+    height: auto;
+}
+/* nombre tablero*/
+.tittlePpal{
+    border-radius: 3px;
+    color: #f6f6f6;
+    cursor: default;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 4px 0 0;
+    overflow: hidden;
+    padding-left: 32px;
+    position: relative;
+    text-decoration: none;
+}
+/* mostrar menú*/
+.menu {
+    float: left;
+}
+/* ícono estrella */
+.tittlePpal.star {
+    color: #f2d600;
+}
+/* título de tablero */
+#tittle{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+/* contenedor principal*/
+.container-fluid{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* contenedor superior derecho */
+.header-superiorDerecha{
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+/* características íconos derechos*/
+.header-threeIcons {
+    transition: .1s ease;
+    background: hsla(0, 0%, 100%, .3);
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-weight: 700;
+    line-height: 32px;
+    margin-right: 4px;
+    min-width: 32px;
+    padding: 0;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 0.5em;
+}
+/* color de fondo de botón de campana*/
+.fondo {
+    background: #3abbe3
+}
+/* imagen usuario*/
+#User{
+    border-radius: 18em;
+    padding-right: 0.2em;
+    height: 32px;
+    width: 35px;
+}
+/* íconos izquerdos y derechos */
+@media (min-width: 992px) {
+    .d-lg-block {
+        display: block !important;
+        float: right;
+        margin-left: .3em;
+    }
+    .d-lg-blockinfo {
+        display: block !important;
+        margin-left: .3em;
+    }
+    .spanSearch {
+        line-height: 32px;
+        margin-left: -2.4em;
+        margin-top: .3em;
+        padding: 0em 0.7em;
+        background: 0;
+    }
+}

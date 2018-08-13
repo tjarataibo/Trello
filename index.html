@@ -52,62 +52,67 @@
     </section> -->
 
     <!-- Contenedor encabezado de ancho completo, que abarca todo el ancho de la ventana gráfica-->
-    <div class="container-fluid" id="contenedor">
-       
-        <div id="header">
-            <a id="headerinicial"></a>
-    <!-- Íconos superior izquierda-->
-            <div id="header-tablero">
-                <span class="header-tablero icon">
-                    <i id="lupa" class="fab fa-trello"></i>
-                </span>
-                <span class="header-tablero d-none d-lg-block">Tableros</span>
+    <div class="container-fluid" id="container">
+            <!-- encabezado-->
+            <div id="header">
+                <!-- contenedor de imagen Trello-->
+                <a id="headerImage"></a>
+                <!--íconos izquierdos-->
+                <div id="header-superiorIzquierda">
+                    <span class="header-superiorIzquierda icon">
+                        <i class="fab fa-trello"></i>
+                    </span>
+                    <span class="header-superiorIzquierda d-none d-lg-block">Tableros</span>
+                </div>
+                <div class="header-barra">
+                     <input type="text" id="searching"class="d-none d-lg-blockinfo" >   
+                    <span class="spanBarra">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
+                <!--íconos derechos-->
+                <div class="header-superiorDerecha">
+                    <a href="#" class="header-threeIcons">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                    <span class="header-threeIcons  d-none d-lg-blockinfo">
+                       <a href="#">
+                        <i class="fas fa-info-circle"></i>
+                    </a>  
+                    </span>
+                   
+                    <a href="#" class="header-threeIcons fondo">
+                        <i class="far fa-bell"></i>
+                    </a>
+                    <a href="#" class="">
+                        <img id ="User"src="https://i.imgur.com/bknQDMn.png" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="busqueda">
-                 <input type="text" id="buscaAqui"class="d-none d-lg-blockinfo" >   
-                <span class="busQ">
-                    <i class="fas fa-search"></i>
-                </span>
+            <!-- contenedor ventral-->
+            <div class='ventral'>
+                <div id="principal">
+                    <a class='tittlePpal' id='tittle'>Tablero</a>
+                    <!--íconos ventrales-->
+                    <span class="tittlePpal star">
+                        <i class="far fa-star"></i>
+                    </span>
+                    <span class='tittlePpal'>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <h5 class='tittlePpal'>Visible para el equipo</h5>
+                    </span>
+                </div>
+        
+                <div id="Principal">
+                    <a class='tittlePpal menu' href="#"> ...Mostrar menú</a>
+                </div>
             </div>
-            <div class="headerleft">
-                <a href="#" class="iconosSuperiores">
-                    <i class="fas fa-plus"></i>
-                </a>
-                <span class="iconosSuperiores  d-none d-lg-blockinfo">
-                   <a href="#">
-                    <i class="fas fa-info-circle"></i>
-                </a>  
-                </span>
-               
-                <a href="#" class="iconosSuperiores fondoCampana"> 
-                    <i class="far fa-bell"></i>
-                </a>
-                <a href="#" class="" id="Usuario">
-                    <img id ="https://i.imgur.com/bknQDMn.png" alt="">
-                </a>
+            <div class="row" id="listInfinity">
+                <button class=" add-list-button" onclick="addList()" id="btnAddList">+ Añada una lista</button>
+            </div>
+            
         </div>
-    </div>
-    <div class='board-header'>
-            <div id="space1">
-                <a class='title-header' id='reto'>Tablero-Retos de Codigo</a>
-                <span class="title-header star">
-                    <i class="far fa-star"></i>
-                </span>
-                <span class='title-header'>
-                    <i class="fas fa-user-friends" aria-hidden="true"></i>
-                    <h5 class='title-header'>Privado</h5>
-                </span>
-            </div>
-    
-            <div id="space2">
-                <a class='title-header left' href="#"> ...Mostrar Menú</a>
-            </div>
-        </div>
-       
-        <div class="row" id="containerNewList">
-            <button class=" add-list-button" onclick="addList()" id="btnAddList">Add a list...</button>
-        </div>
-    </div>
+        
 
  <!-- scripts bootstrap  -->
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
