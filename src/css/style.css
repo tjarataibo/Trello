@@ -31,11 +31,11 @@
     margin-left: auto;
 }
 /* fondo */
-body {
+body{
     background-color: rgb(21, 113, 167);
 }
 /* encabezado */
-#header {
+#header{
     background: rgba(0, 0, 0, .35);
     position: relative;
     padding: 4x;
@@ -43,14 +43,14 @@ body {
     height: 42px;
 }
 /* contenedor de imagen Trello*/
-#headerImage {
+#headerImage{
     height: 30px;
     left: 50%;
-    margin-left: -40px;
+    margin-left: -70px;
     opacity: .5;
     position: absolute;
     top: 7px;
-    width: 80px;
+    width: 120px;
     text-align: center;
     background-image: url('https://raulsolbes.files.wordpress.com/2017/04/trello.png?w=1400&h=400&crop=1');
     background-size: cover;
@@ -58,7 +58,7 @@ body {
     display: block;
 }
 /* contenedor de sección superior izquierda*/
-#header-superiorIzquierda {
+#header-superiorIzquierda{
     background: hsla(0, 0%, 100%, .3);
     border-radius: 3px;
     color: #fff;
@@ -71,31 +71,27 @@ body {
     padding: 0em 0.7em;
 }
 /* íconos */
-.fa-trello:before {
-    content: "\f181";
+.fa-trello:before{
     margin: 0em 0.1em;
 }
-.fa-search {
+.fa-search{
     font-weight: 900;
-    -webkit-transform: scaleX(-1);
     color: white;
 }
-.fa-plus {
+.fa-plus{
     font-weight: 900;
-    -webkit-transform: scaleX(-1);
     color: white;
 }
-.fa-info-circle {
+.fa-info-circle{
     font-weight: 900;
-    -webkit-transform: scaleX(-1);
     color: white;
 }
 /* barra de búsqueda*/
-.header-barra {
+.header-barra{
     position: relative;
 }
 /* contenedor de ícono búsqueda*/
-.spanBarra {
+.spanBarra{
     position: absolute;
     background: hsla(0, 0%, 100%, .3);
     border-radius: 3px;
@@ -128,8 +124,8 @@ body {
     height: auto;
 }
 /* ícono estrella */
-.tittlePpal.star {
-    color: #f2d600;
+.tittlePpal.star{
+    color: #ffffff;
 }
 /* título de tablero */
 #tittle{
@@ -149,20 +145,19 @@ body {
     overflow: hidden;
     padding-left: 32px;
     position: relative;
-    text-decoration: none;
 }
 /* contenedor superior derecho */
 .header-superiorDerecha{
     position: absolute;
-    top: 4px;
+    top: 3px;
     right: 0;
 }
 /* mostrar menú*/
-.menu {
+.menu{
     float: left;
 }
 /* características íconos derechos*/
-.header-threeIcons {
+.header-threeIcons{
     transition: .1s ease;
     background: hsla(0, 0%, 100%, .3);
     border-radius: 3px;
@@ -174,15 +169,10 @@ body {
     margin-right: 4px;
     min-width: 32px;
     padding: 0;
-    text-decoration: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     padding-left: 0.5em;
 }
 /* color de fondo de botón de campana*/
-.fondo {
+.fondo{
     background: #3abbe3
 }
 /* imagen usuario*/
@@ -193,26 +183,24 @@ body {
     width: 35px;
 }
 /* íconos izquerdos y derechos */
-@media (min-width: 992px) {
-    .d-lg-block {
-        display: block !important;
+@media (min-width: 992px){
+    .d-lg-block{
         float: right;
         margin-left: .3em;
     }
-    .d-lg-blockinfo {
-        display: block !important;
-        margin-left: .3em;
-    }
-    .spanSearch {
+    .spanSearch{
         line-height: 32px;
         margin-left: -2.4em;
         margin-top: .3em;
         padding: 0em 0.7em;
         background: 0;
     }
+    .d-lg-blockinfo{
+        display: block !important;
+    }
 }
 /* añada una lista*/
-.add-list-button {
+.add-list-button{
     background-color: rgba(34, 32, 33, 0.568);
     text-align: left;
     color: rgb(250, 253, 255);
@@ -234,7 +222,8 @@ body {
     margin-top: 2em;
     margin-left: 1em;
 }
-.inputTittleList {
+/* título de lista*/
+.inputTittleList{
     width: 100%;
     height: 30px;
     margin-bottom: 11px;
@@ -247,6 +236,7 @@ form{
     margin: 4px 10px;
     margin-top: 1.5em;
 }
+/* tarjeta*/
 .tarjet{
     background-color: #efe5f1;;
     height: 3em;
@@ -258,7 +248,7 @@ form{
 .tarjet button{
     margin-left: 10px;
 }
-textarea {
+textarea{
     border-radius: 5px;
     box-shadow: 4px 2px 3px 0px #ffffff;
     height: 2.5em;
