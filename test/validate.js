@@ -1,5 +1,5 @@
-window.ValidateWork = function() {
-  if (!password.trim() === ' ') { // se verifica que no esté vacío
+window.ValidateWork = function(work) {
+  if (!work.trim() === ' ') { // se verifica que no esté vacío
     return false;
   }
   return true;
