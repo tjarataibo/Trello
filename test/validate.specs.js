@@ -3,7 +3,7 @@ global.window = global;
 require('validate.js');
 
 describe('Validar que exista una tarea', () => {
-  describe('Validar que una tarea contenga escritos', () => {
+  describe('Debería la tarea, tener escrito', () => {
     it('Debería tener letras, números y/o signos', () => {
       assert.equal(ValidateWork(' '), false);
     });
