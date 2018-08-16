@@ -120,5 +120,3 @@ window.printWrite = function() {
   textArea.value = '';
 };
 
-
-module.exports = (infinityList, printTittleL, addL);
