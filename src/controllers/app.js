@@ -9,7 +9,7 @@ window.onload = function() {
     window.tittle(create);
   };
 
-  window.savv = function() {
+  window.save = function() {
     const sev = window.printTittleL();
     window.tittle(sev);
   };
